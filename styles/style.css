@@ -160,3 +160,19 @@ section {
 .latest-deals-contrainer .section-title{
     padding-bottom: 0;
 }
+
+/* Footer Style */
+footer{
+    background-color: #111010;
+    margin-bottom: 0;
+}
+.footer-container{
+    padding: 40px 0;
+}
+footer section{
+    background-color: #111010;
+    margin-bottom: 0;
+}
+.footer-container h2{
+    color: #fff;
+}
