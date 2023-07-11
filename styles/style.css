@@ -34,7 +34,7 @@ section {
     text-align: center;
     font-size: 30px;
     font-weight: 800;
-    padding: 25px 0;
+    padding: 15px 0;
 }
 
 .paragraph {
@@ -43,7 +43,7 @@ section {
     font-size: 14px;
     font-weight: 400;
     line-height: 30px;
-    padding: 30px 0;
+    padding: 20px 0;
 }
 
 .color-light {
@@ -77,11 +77,42 @@ section {
     background-size: contain;
     background-color: #FCEEF1;
 }
-.banner-container p{
-    text-align: left;
-}
 .banner-title {
     color: #272727;
     font-size: 50px;
-    font-weight: 800;
+    font-weight: 900;
+}
+.banner-container p{
+    text-align: left;
+}
+
+/* //////////     Feature Style     ////////// */
+.features{
+    justify-content: space-around;
+    gap: 50px;
+}
+.feature-image{
+    width: 280px;
+    height: 380px;
+    padding: 60px 60px 0px 60px;
+    border-radius: 200px 200px 0 0;
+}
+
+.feature-image-caption{
+    color: #010101;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 20px 0;
+    text-decoration: underline;
+    font-weight: 700;
+}
+.feature-img-bg-1{
+    background-color: #F1DDE7;
+}
+.feature-img-bg-2{
+    background-color: #D9EFF0;
+}
+.feature-img-bg-3{
+    background-color: #E3EBDB;
 }
