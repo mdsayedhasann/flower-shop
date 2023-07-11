@@ -19,14 +19,14 @@ body {
 
 /* //////////          Common Styles          ////////// */
 
-main {
-    padding: 0 200px;
+main{
+    
 }
-
 section {
     width: 1060px;
     margin: 0 auto;
-    padding: 40px 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .section-title {
@@ -64,6 +64,9 @@ section {
 
 .flex {
     display: flex;
+}
+.text-center{
+    text-align: center;
 }
 
 
@@ -115,4 +118,26 @@ section {
 }
 .feature-img-bg-3{
     background-color: #E3EBDB;
+}
+
+/* //////////          Deal Style          ////////// */
+.deal{
+    padding: 40px 200px;
+    background-color: #fdf6f8;
+    /* width: 100%; */
+}
+.deal-container{
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+    height: 60vh;
+}
+.deal-btn{
+    /* text-align: center;
+    display: inline-block;
+    margin: 0 auto; */
+}
+
+.deal-image img{
+    width: 250px;
 }
