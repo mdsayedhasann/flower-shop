@@ -95,7 +95,7 @@ section {
     gap: 50px;
 }
 .feature-image{
-    width: 280px;
+    width: 240px;
     height: 380px;
     padding: 60px 60px 0px 60px;
     border-radius: 200px 200px 0 0;
@@ -140,4 +140,14 @@ section {
 
 .deal-image img{
     width: 250px;
+}
+
+
+/* Insta Style */
+.insta-container{
+    justify-content: center;
+    gap: 15px;
+}
+.insta img{
+    width: 220px;
 }
